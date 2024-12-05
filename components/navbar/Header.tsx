@@ -14,9 +14,9 @@ const Header = () => {
 
     return (
         <>
-            <nav className="fixed z-10 w-full h-[80px] px-6 xl:px-10 bg-[#FAF8F6] dark:bg-black">
+            <nav className="fixed w-full h-[80px] px-5 xl:px-10 bg-[#FAF8F6] dark:bg-black">
                 <header className="w-full h-full flex items-center justify-between">
-                    <div className="flex items-center justify-center gap-6">
+                    <div className="flex gap-6 w-fit">
                         <div className="flex gap-2">
                             <Image 
                                 src="/payap(noname).svg"
@@ -25,7 +25,7 @@ const Header = () => {
                                 height={40}
                                 priority
                             />
-                            <p className="text-[26px] text-black dark:text-white font-monsterat font-bold">Payap</p>
+                            <p className="text-[26px] hidden md:block text-black dark:text-white font-monsterat font-bold">Payap</p>
                         </div>
                         <ul className="hidden xl:flex items-center justify-center gap-8">
                             {headerLinks.map((headerLink) => (
@@ -38,9 +38,11 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="flex items-center gap-4">
-                        <DarkModeBtn />
+                        <div>
+                            <DarkModeBtn />
+                        </div>
                         <button
-                            className="bg-transparent"
+                            className="bg-transparent xl:hidden"
                             onClick={() => setMenuVisible((isMenuVisible) => !isMenuVisible)}
                         >
                             <IoMenu
@@ -63,7 +65,7 @@ const Header = () => {
                 </header>
             </nav>
             {isMenuVisible && (
-                <div className="fixed Z-10 w-full h-full p-6 mt-[78px] dark:bg-black bg-[#FAF8F6] border-t-2 border-[#d1d1d1]">
+                <div className="fixed z-10 w-full h-full p-6 mt-[78px] dark:bg-black bg-[#FAF8F6] border-t-2 border-[#d1d1d1]">
                     <ul className="flex flex-col items-start justify-start gap-8">
                         {headerLinks.map((headerLink) => (
                             <li key={headerLink.key}>

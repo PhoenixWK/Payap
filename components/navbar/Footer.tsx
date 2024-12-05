@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <nav className="w-full h-full px-6 xl:px-10 py-6 bg-[#FAF8F6] dark:bg-black">
+        <nav className="w-full h-full pt-10 lg:pt-20 px-6 xl:px-10 py-6 bg-[#FAF8F6] dark:bg-black">
             <footer>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                     <div className="flex flex-col gap-6">

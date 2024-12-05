@@ -153,4 +153,31 @@ export const legalDocuments: Array<{
         link: "",
         label: "Security Policy"
     }
+];
+
+export const realTimeTrackingProperties: Array<{
+    key: string,
+    heading3: string,
+    descForHeading3: string[]
+}> = [
+    {
+        key: "instant-expense-updates",
+        heading3: "Instane expense updates",
+        descForHeading3: ["Immediate visibility into spending habits", "Ability to adjust budget in real time"]
+    },
+    {
+        key: "automated-expense-categorization",
+        heading3: "Automated expense categorization",
+        descForHeading3: ["No manual sorting or categorizing", "Financial data is always organized"]
+    },
+    {
+        key: "visual-financial-insights",
+        heading3: "Visual financial insights",
+        descForHeading3: ["Clear, easy-to-read charts and graphs", "Spot trends and anomalies quickly"]
+    },
+    {
+        key: "cross-platform accessibility",
+        heading3: "Cross-platform accessibility",
+        descForHeading3: ["Access your financial data", "Seamless experience across web, mobile, and tablet"]
+    }
 ]
