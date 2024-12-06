@@ -1,6 +1,6 @@
 ## Create a remote repository (12/05/2024, 9.09pm)
 ## Add KeyFeaturesSection and handle its dark mode
-> key-feature.tsx
+    > key-feature.tsx
     import Image from "next/image";
     import { realTimeTrackingProperties } from "@/utils/links";
     import { Button } from "../ui/button";
