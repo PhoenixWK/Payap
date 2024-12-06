@@ -1,5 +1,5 @@
 ## Create a remote repository (12/05/2024, 9.09pm)
-## Add KeyFeaturesSection and handle its dark mode
+## Add KeyFeaturesSection and handle its dark mode (12/06, 10.53pm)
 key-feature.tsx
 
     import Image from "next/image";
