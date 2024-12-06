@@ -7,7 +7,7 @@ export default function Home() {
       <div className="px-5">
         <IntroduceSection />
       </div>
-      <div className="bg-[#faf8f6] px-5">
+      <div className="bg-white dark:bg-black px-5">
         <KeyFeaturesSection />
       </div>
       HELLO WORLD

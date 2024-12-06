@@ -158,26 +158,36 @@ export const legalDocuments: Array<{
 export const realTimeTrackingProperties: Array<{
     key: string,
     heading3: string,
-    descForHeading3: string[]
+    descForHeading3: string[],
+    img: string,
+    darkImg: string
 }> = [
     {
         key: "instant-expense-updates",
         heading3: "Instane expense updates",
-        descForHeading3: ["Immediate visibility into spending habits", "Ability to adjust budget in real time"]
+        descForHeading3: ["Immediate visibility into spending habits", "Ability to adjust budget in real time"],
+        img: "/instant-expense-updates.svg",
+        darkImg: "/instant-expense-updates(dark).svg"
     },
     {
         key: "automated-expense-categorization",
         heading3: "Automated expense categorization",
-        descForHeading3: ["No manual sorting or categorizing", "Financial data is always organized"]
+        descForHeading3: ["No manual sorting or categorizing", "Financial data is always organized"],
+        img: "/automated-expense-categorization.svg",
+        darkImg: "/automated-expense-categorization(dark).svg"
     },
     {
         key: "visual-financial-insights",
         heading3: "Visual financial insights",
-        descForHeading3: ["Clear, easy-to-read charts and graphs", "Spot trends and anomalies quickly"]
+        descForHeading3: ["Clear, easy-to-read charts and graphs", "Spot trends and anomalies quickly"],
+        img: "/visual-financial-insights.svg",
+        darkImg: "/visual-financial-insights(dark).svg"
     },
     {
         key: "cross-platform accessibility",
         heading3: "Cross-platform accessibility",
-        descForHeading3: ["Access your financial data", "Seamless experience across web, mobile, and tablet"]
+        descForHeading3: ["Access your financial data", "Seamless experience across web, mobile, and tablet"],
+        img: "/cross-platform-accessibility.svg",
+        darkImg: "/cross-platform-accessibility(dark).svg"
     }
 ]
