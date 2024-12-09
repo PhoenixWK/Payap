@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 import { realTimeTrackingProperties } from "@/utils/links";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 
 const KeyFeaturesSection = () => {
     return (
@@ -42,8 +42,8 @@ const KeyFeaturesSection = () => {
                                 src={realTimeTrackingProperty.img as string}
                                 alt="Image"
                                 className="w-full h-full"
-                                width={294}
-                                height={147}
+                                width={318}
+                                height={171}
                             />
                         </div>
                         <div className="hidden dark:block mt-4">
@@ -51,8 +51,8 @@ const KeyFeaturesSection = () => {
                                 src={realTimeTrackingProperty.darkImg as string}
                                 alt="Image"
                                 className="w-full h-full"
-                                width={294}
-                                height={147}
+                                width={318}
+                                height={171}
                             />
                         </div>
                     </li>

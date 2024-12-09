@@ -1,12 +1,12 @@
 
 import Image from "next/image";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 
 const IntroduceSection = () => {
     return (
         <section className="mt-10 w-full">
-            <h1 className="text-3xl md:text-4xl text-black dark:text-white font-bold text-center tracking-wider">
-                <span className="text-[#3FA477] border-4 border-[#9CDD8A] px-2">Revolutionize</span> the Way You Manage Your Finances
+            <h1 className="text-6xl md:text-7xl text-black dark:text-white font-bold text-center tracking-wider">
+                <span className="text-[#3FA477] px-2">Revolutionize</span> the Way You Manage Your Finances
             </h1>
             <p className="mt-10 text-[16px] xl:text-[24px] text-[#888888] text-center font-sans">
                 Experience seamless financial control with real-time tracking, smart insights, and effortless integration. <br></br>
@@ -15,13 +15,13 @@ const IntroduceSection = () => {
             <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">
                 <Button
                     variant="secondary"
-                    className="w-full md:w-fit h-14 md:px-8 py-4 bg-[#9CDD8A] rounded-xl shadow-inner text-[16px] text-black text-center"
+                    className="w-full md:w-fit h-14 md:px-8 py-4 bg-[#9CDD8A] rounded-xl shadow-inner text-[16px] text-black dark:hover:text-white text-center"
                 >
                     Get Started
                 </Button>
                 <Button
                     variant="secondary"
-                    className="w-full md:w-fit h-14 md:px-8 py-4 bg-white rounded-xl shadow-inner text-[16px] text-black text-center"
+                    className="w-full md:w-fit h-14 md:px-8 py-4 bg-white rounded-xl shadow-inner text-[16px] text-black dark:hover:text-white text-center"
                 >
                     Book a Call
                 </Button>
