@@ -1,5 +1,6 @@
-import IntroduceSection from "@/components/home-sections/introduce-section";
-import KeyFeaturesSection from "@/components/key-features/key-features";
+import IntroduceSection from "@/components/sections/home-sections/introduce-section";
+import KeyFeaturesSection from "@/components/sections/key-features/key-features";
+import SecuritySection from "@/components/sections/security-sections/security-sections";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
       </div>
       <div className="bg-white dark:bg-black px-5">
         <KeyFeaturesSection />
+      </div>
+      <div className="">
+        <SecuritySection />
       </div>
       HELLO WORLD
     </div>
