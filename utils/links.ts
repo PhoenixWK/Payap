@@ -190,4 +190,4 @@ export const realTimeTrackingProperties: Array<{
         img: "/cross-platform-accessibility.svg",
         darkImg: "/cross-platform-accessibility(dark).svg"
     }
-]
+];
