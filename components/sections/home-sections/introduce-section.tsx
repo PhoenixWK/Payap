@@ -5,7 +5,7 @@ import { Button } from "../../ui/button";
 const IntroduceSection = () => {
     return (
         <section className="mt-10 w-full">
-            <h1 className="text-6xl md:text-7xl text-black dark:text-white font-bold text-center tracking-wider">
+            <h1 className="text-4xl md:text-7xl text-black dark:text-white font-bold text-center tracking-wider">
                 <span className="text-[#3FA477] px-2">Revolutionize</span> the Way You Manage Your Finances
             </h1>
             <p className="mt-10 text-[16px] xl:text-[24px] text-[#888888] text-center font-sans">
@@ -33,6 +33,8 @@ const IntroduceSection = () => {
                     className="md:w-[696px] md:h-[322px] lg:w-[1296px] lg:h-[579px]"
                     width={342}
                     height={172}
+                    quality={100}
+                    priority={true}
                 />
             </div>
             <div className="hidden mt-10 dark:flex items-center justify-center">
@@ -42,6 +44,7 @@ const IntroduceSection = () => {
                     className="md:w-[696px] md:h-[322px] lg:w-[1296px] lg:h-[579px]"
                     width={342}
                     height={172}
+                    quality={100}
                 />
             </div>
             <div className="my-10 flex justify-center items-center gap-4 md:gap-8 lg:gap-12 ">
