@@ -51,13 +51,13 @@ const Header = () => {
                         </button>
                         <Button
                             variant="secondary" 
-                            className="hidden xl:flex text-[14px] text-black font-bold bg-[#EEEEEE] border-2 border-[#EEEEEE]"
+                            className="hidden xl:flex text-[14px] text-black dark:hover:text-white font-bold bg-[#EEEEEE] border-2 border-[#EEEEEE]"
                         >
                             Login
                         </Button>
                         <Button 
                             variant="secondary" 
-                            className="hidden xl:flex text-[14px] text-black font-bold bg-[#9CDD8A] border-2 border-[#EEEEEE]"
+                            className="hidden xl:flex text-[14px] text-black dark:hover:text-white font-bold bg-[#9CDD8A] border-2 border-[#EEEEEE]"
                         >
                             Get started
                         </Button>

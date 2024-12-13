@@ -6,14 +6,14 @@ import Image from 'next/image'
 export default function UnderstandTheProcessSection() {
     return (
         <section className="bg-[#FAF8F6] dark:bg-black">
-            <div className="w-full h-full mx-auto py-12 md:py-16 lg:grid lg:grid-cols-2">
+            <div className="w-full h-full mx-auto px-5 py-12 md:py-16 lg:grid lg:grid-cols-2">
                 <div className="flex items-center justify-cente w-full h-full">
                     <Image 
                         src="/how-its-works.svg"
                         alt="Image"
                         className="dark:hidden w-full h-full"
-                        width={716}
-                        height={558}
+                        width={1432}
+                        height={1116}
                         quality={100}
                     />
                     <Image 
