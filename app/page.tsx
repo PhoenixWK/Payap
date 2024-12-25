@@ -1,9 +1,9 @@
-import IntegrationsSection from "@/components/sections/integrations-section/integrations-section";
-import IntroduceSection from "@/components/sections/home-sections/introduce-section";
-import KeyFeaturesSection from "@/components/sections/key-features/key-features";
-import SecuritySection from "@/components/sections/security-sections/security-sections";
-import UnderstandTheProcessSection from "@/components/sections/understandProcess-sections/understandTheProcess-sections";
-import Enjoy7DaysFreeSection from "@/components/sections/enjoy7DaysFree-section/enjoy7DaysFree-section";
+import IntegrationsSection from "@/components/sections/default/integrations-section/integrations-section";
+import IntroduceSection from "@/components/sections/default/home-sections/introduce-section";
+import KeyFeaturesSection from "@/components/sections/default/key-features/key-features";
+import SecuritySection from "@/components/sections/default/security-sections/security-sections";
+import UnderstandTheProcessSection from "@/components/sections/default/understandProcess-sections/understandTheProcess-sections";
+import Enjoy7DaysFreeSection from "@/components/sections/default/enjoy7DaysFree-section/enjoy7DaysFree-section";
 
 export default function Home() {
   return (

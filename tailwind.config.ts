@@ -57,7 +57,8 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 		fontFamily: {
-			'monsterat': ['Monsterat', 'sans-serif']
+			'monsterat': ['Monsterat', 'sans-serif'],
+			urbanist: ['Urbanist', 'sans-serif']
 		}
   	}
   },

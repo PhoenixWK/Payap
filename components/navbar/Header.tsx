@@ -30,7 +30,7 @@ const Header = () => {
                         <ul className="hidden xl:flex items-center justify-center gap-8">
                             {headerLinks.map((headerLink) => (
                                 <li key={headerLink.key}>
-                                    <Link href={headerLink.link} className="text-[16px] text-black dark:text-white font-bold">
+                                    <Link href={headerLink.link} className="text-[16px] text-black dark:text-white hover:text-[#3FA477] hover:dark:text-[#3FA477] font-bold">
                                         {headerLink.label}
                                     </Link>
                                 </li>
