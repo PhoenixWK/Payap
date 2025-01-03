@@ -1,11 +1,11 @@
 
 import Image from "next/image";
-import { servicesInCaseStudy } from "@/utils/links";
+import { servicesInCaseStudy } from "@/utils/content";
 
 export default function ServiceInCaseStudySection() {
     return (
         <section className="mt-[24px] mx-5">
-            <ul className="lg:mt-10 grid grid-cols-1 lg:grid-cols-2 lg:gap-6 space-y-6 lg:space-y-0">
+            <ul className="pb-6 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 lg:gap-6 space-y-6 lg:space-y-0">
                 {servicesInCaseStudy.map((service) => (
                     <li key={service.key} className={
                         service.key === 'treehouse' ? "bg-[#f4fbf2] dark:bg-[#151515] p-5 md:p-10 rounded-md space-y-6" :

@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className="fixed w-full h-[80px] px-5 xl:px-10 bg-[#FAF8F6] dark:bg-black">
+            <nav className="fixed z-20 w-full h-[80px] px-5 xl:px-10 bg-[#FAF8F6] dark:bg-black">
                 <header className="w-full h-full flex items-center justify-between">
                     <div className="flex gap-6 w-fit">
                         <div className="flex gap-2">
@@ -65,7 +65,7 @@ const Header = () => {
                 </header>
             </nav>
             {isMenuVisible && (
-                <div className="fixed z-10 w-full h-full p-6 mt-[78px] dark:bg-black bg-[#FAF8F6] border-t-2 border-[#d1d1d1]">
+                <div className="fixed z-20 w-full h-full p-6 mt-[78px] dark:bg-black bg-[#FAF8F6] border-t-2 border-[#d1d1d1]">
                     <ul className="flex flex-col items-start justify-start gap-8">
                         {headerLinks.map((headerLink) => (
                             <li key={headerLink.key}>

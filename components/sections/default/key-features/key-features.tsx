@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import { realTimeTrackingProperties } from "@/utils/links";
+import { realTimeTrackingProperties } from "@/utils/content";
 import { Button } from "../../../ui/button";
 
 const KeyFeaturesSection = () => {
