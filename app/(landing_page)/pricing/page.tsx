@@ -3,6 +3,7 @@ import Image from "next/image";
 import PricingPlans from "@/components/sections/pricing/pricingPlans/pricing-plans";
 import FeatureTable from "@/components/sections/pricing/features-table/features-table";
 import { pricingFeatures } from "@/utils/content";
+import FAQSection from "@/components/sections/pricing/faq-section/faq-section";
 
 const apps:Array<string> = [
     '/logo/dark_logo/dark_contenful.svg',
@@ -54,6 +55,9 @@ export default function PricingPage() {
                     <h2 className="text-xl lg:text-3xl font-bold font-montserrat leading-7">Compare all features</h2>
                     <FeatureTable />
                 </div>
+            </section>
+            <section>
+                <FAQSection />
             </section>
         </div>
     )

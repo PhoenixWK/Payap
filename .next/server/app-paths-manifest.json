@@ -1,3 +1,6 @@
 {
-  "/(landing_page)/pricing/page": "app/(landing_page)/pricing/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/(landing_page)/pricing/page": "app/(landing_page)/pricing/page.js",
+  "/(landing_page)/case-study/page": "app/(landing_page)/case-study/page.js"
 }
