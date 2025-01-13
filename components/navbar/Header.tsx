@@ -23,7 +23,7 @@ const Header = () => {
                                 alt="Web logo"
                                 width={40}
                                 height={40}
-                                priority
+                                priority={true}
                             />
                             <p className="text-[26px] hidden md:block text-black dark:text-white font-monsterat font-bold">Payap</p>
                         </div>
