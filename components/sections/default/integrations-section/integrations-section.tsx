@@ -7,47 +7,47 @@ const apps: Array<{
 }> = [
     {
         name: "Paypal",
-        imgLink: "/Name=paypal-2.svg"
+        imgLink: "/stakeholders/Name=paypal-2.svg"
     },
     {
         name: "Square",
-        imgLink: "/Name=square.svg"
+        imgLink: "/stakeholders/Name=square.svg"
     },
     {
         name: "Envato",
-        imgLink: "/Name=envato.svg"
+        imgLink: "/stakeholders/Name=envato.svg"
     },
     {
         name: "Qiwi",
-        imgLink: "/Name=qiwi.svg"
+        imgLink: "/stakeholders/Name=qiwi.svg"
     },
     {
         name: "Stripe",
-        imgLink: "/Name=stripe.svg"
+        imgLink: "/stakeholders/Name=stripe.svg"
     },
     {
         name: "Tech Crunch",
-        imgLink: "/Name=tech_crunch.svg"
+        imgLink: "/stakeholders/Name=tech_crunch.svg"
     },
     {
         name: "Shopify",
-        imgLink: "/Name=shopify.svg"
+        imgLink: "/stakeholders/Name=shopify.svg"
     },
     {
         name: "Xero",
-        imgLink: "/Name=xero.svg"
+        imgLink: "/stakeholders/Name=xero.svg"
     },
     {
         name: "Alfa Bank",
-        imgLink: "/Name=alfa_bank.svg"
+        imgLink: "/stakeholders/Name=alfa_bank.svg"
     },
     {
         name: "Product Hunt",
-        imgLink: "/Name=product_hunt.svg"
+        imgLink: "/stakeholders/Name=product_hunt.svg"
     },
     {
         name: "Yandex Kassa",
-        imgLink: "/Name=yandex_kassa.svg"
+        imgLink: "/stakeholders/Name=yandex_kassa.svg"
     },
 ]
 
