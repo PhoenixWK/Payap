@@ -6,11 +6,11 @@ import Enjoy7DaysFreeSection from "../default/enjoy7DaysFree-section/enjoy7DaysF
 export default function ShowFeatures() {
     return (
         <section>
-            <div className="w-full mx-auto px-6 pt-16 pb-4">
+            <div className="w-full mx-auto px-5 pt-16 pb-4">
             {/* Feature 1: Instant expense updates */}
                 <section className="mb-16 md:mb-24">
                     <div className="grid md:grid-cols-2 gap-8 items-center">
-                        <div className="space-y-6">
+                        <div className="lg:pl-5 space-y-6">
                             <h2 className="text-3xl md:text-4xl font-bold">Instant expense updates</h2>
                             <p className="dark:text-white text-black">
                                 Every transaction is automatically tracked and updated in real time, whether you're paying bills,
@@ -84,7 +84,7 @@ export default function ShowFeatures() {
                                 /> 
                             </div>
                         </div>
-                        <div className="order-1 md:order-2 space-y-6">
+                        <div className="lg:pr-5 order-1 md:order-2 space-y-6">
                             <h2 className="text-3xl md:text-4xl font-bold">Automated expense categorization</h2>
                             <p className="dark:text-white text-black">
                                 Playa intelligently categorizes your expenses, ensuring that your financial data is organized and easy
@@ -108,7 +108,7 @@ export default function ShowFeatures() {
 
                 {/* Feature 3: Visual financial insights */}
                 <section className="mb-16 md:mb-24">
-                    <div className="grid md:grid-cols-2 gap-8 items-center">
+                    <div className="lg:pl-5 grid md:grid-cols-2 gap-8 items-center">
                         <div className="space-y-6">
                             <h2 className="text-3xl md:text-4xl font-bold">Visual financial insights</h2>
                             <p className="dark:text-white text-black">
@@ -184,7 +184,7 @@ export default function ShowFeatures() {
                                 />
                             </div>
                         </div>
-                        <div className="order-1 md:order-2 space-y-6">
+                        <div className="lg:pr-5 order-1 md:order-2 space-y-6">
                             <h2 className="text-3xl md:text-4xl font-bold">Cross-platform accessibility</h2>
                             <p className="text-black dark:text-white">
                                 Track and manage your finances from anywhere, whether you're on your desktop, tablet, or mobile device.

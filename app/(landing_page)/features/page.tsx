@@ -9,7 +9,7 @@ export default function FeaturesPage() {
     return (
         <LandingPageLayout>
             <div className="bg-white dark:bg-black w-full pt-[120px]">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <div className="pl-5 grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div className="px-6">
                         <h1 className="text-3xl md:text-4xl text-black dark:text-white font-bold text-left tracking-wider">
                             Effortless real-time expense tracking for<br></br><span className="text-[#3FA477]">smarter financial</span> control
