@@ -113,7 +113,7 @@ export const companyConcerns: Array<{
 }> = [
     {
         key: "about-us",
-        link: "",
+        link: "/about-us",
         label: "About Us"
     }, 
     {

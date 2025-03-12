@@ -156,14 +156,14 @@ const plans = [
 
 export default function PricingComparison() {
   return (
-        <div className="w-full max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
         
             {/* Mobile View - Cards */}
             <div className="grid gap-6 md:hidden">
                 {plans.map((plan) => (
                     <div
                         key={plan.name}
-                        className="rounded-lg border bg-card text-card-foreground shadow-sm"
+                        className="rounded-lg border text-card-foreground shadow-sm"
                     >
                         <div className="p-6 flex flex-col gap-4">
                             <div className="flex items-center justify-between">

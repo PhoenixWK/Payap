@@ -11,30 +11,30 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/(landing_page)/features/page": [
+    "/(landing_page)/case-study/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/features/page.js"
-    ],
-    "/(landing_page)/pricing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/pricing/page.js"
+      "static/chunks/app/(landing_page)/case-study/page.js"
     ],
     "/(landing_page)/integrations-page/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(landing_page)/integrations-page/page.js"
     ],
-    "/(landing_page)/case-study/page": [
+    "/(landing_page)/pricing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/case-study/page.js"
+      "static/chunks/app/(landing_page)/pricing/page.js"
     ],
     "/(landing_page)/about-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(landing_page)/about-us/page.js"
+    ],
+    "/(landing_page)/contact-us/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(landing_page)/contact-us/page.js"
     ]
   }
 }

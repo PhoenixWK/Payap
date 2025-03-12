@@ -70,7 +70,7 @@ export default function StakeHolders() {
     return (
         <section className="pt-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {stakeHolders.map((stakeHolder) => (
-                <div key={stakeHolder.key} className="p-4 space-y-4 border-2 border-[#eaeaea] rounded-lg">
+                <div key={stakeHolder.key} className="p-4 space-y-4 border-2 border-[#eaeaea] hover:border-[#9CDD8A] rounded-lg">
                     <div className="flex items-center justify-between">
                         <div className="w-fit p-2 dark:p-0 rounded-full shadow-lg">
                             <Image 
