@@ -13,11 +13,11 @@ import { cn } from "@/lib/utils";
 export default function ContactUs() {
     return (
         <LandingPageLayout>
-            <div className="flex flex-col min-h-screen px-4 lg:px-10 py-8 lg:py-12 w-full">
+            <div className="flex flex-col min-h-screen px-5 lg:px-10 pb-12 lg:py-12 w-full">
                 {/* Main Content */}
-                <main className="pt-[90px] flex-grow">
+                <main className="pt-[80px] flex-grow">
                    
-                    <div className="container mx-auto w-full">              
+                    <div className="mx-auto w-full">              
                         <h1 className="text-4xl font-bold mb-4">Get in Touch</h1>
                         <p className="text-[#888] font-semibold mb-8">
                             We're here to help! Whether you have a question, need support, or just want to learn more about Payap, feel free to contact us.
@@ -35,7 +35,7 @@ export default function ContactUs() {
                                                        
                                 </div>
                                 <p className="text-[#888] text-xl font-semibold">support@payap.com</p>  
-                                <Button className={cn("p-5 bg-[#faf8f6] hover:bg-black/50 dark:hover:bg-white/50 text-black font-semibold")}>
+                                <Button className={cn("p-5 bg-[#faf8f6] hover:bg-[#9cdd8a] hover:text-white dark:hover:bg-[#9cdd8a] dark:hover:text-white text-black font-semibold")}>
                                     Email to Support
                                 </Button>
                             </div>
@@ -51,7 +51,7 @@ export default function ContactUs() {
                                                        
                                 </div>
                                 <p className="text-[#888] text-xl font-semibold">+1 (800) 123-4567</p>  
-                                <Button className={cn("p-5 bg-[#faf8f6] hover:bg-black/50 dark:hover:bg-white/50 text-black font-semibold")}>
+                                <Button className={cn("p-5 bg-[#faf8f6] hover:bg-[#9cdd8a] hover:text-white dark:hover:bg-[#9cdd8a] dark:hover:text-white text-black font-semibold")}>
                                     Call Our Team
                                 </Button>
                             </div>

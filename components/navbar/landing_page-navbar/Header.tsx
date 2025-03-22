@@ -4,17 +4,15 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image"
 import { IoMenu } from "react-icons/io5";
-import { useTheme } from 'next-themes';
 import { headerLinks } from "@/utils/links";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 import { DarkModeBtn } from "./DarkModeBtn";
 
 const Header = () => {
     const [isMenuVisible, setMenuVisible] = React.useState<boolean>(false);
-
     return (
         <>
-            <nav className="fixed z-20 w-full h-[80px] px-5 xl:px-10 bg-[#FAF8F6] dark:bg-black">
+            <nav className="fixed z-20 w-full h-[60px] px-5 lg:px-10 bg-[#FAF8F6] dark:bg-black">
                 <header className="w-full h-full flex items-center justify-between">
                     <div className="flex gap-6 w-fit">
                         <div className="flex gap-2">
@@ -65,7 +63,7 @@ const Header = () => {
                 </header>
             </nav>
             {isMenuVisible && (
-                <div className="fixed z-20 w-full h-full p-6 mt-[78px] dark:bg-black bg-[#FAF8F6] border-t-2 border-[#d1d1d1]">
+                <div className="fixed z-20 w-full h-full p-6 mt-[58px] dark:bg-black bg-[#FAF8F6] border-t-2 border-[#d1d1d1]">
                     <ul className="flex flex-col items-start justify-start gap-8">
                         {headerLinks.map((headerLink) => (
                             <li key={headerLink.key}>

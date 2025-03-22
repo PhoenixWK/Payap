@@ -4,11 +4,6 @@ export const headerLinks: Array<{
     label: string
 }> = [
     {
-        key: "how-it-works",
-        link: "/how-it-works",
-        label: "How it works"
-    },
-    {
         key: "features",
         link: "/features",
         label: "Features"
@@ -68,18 +63,13 @@ export const productConcerns: Array<{
     label: string
 }> = [
     {
-        key: "how-it-works",
-        link: "/how-it-works",
-        label: "How it works"
-    },
-    {
         key: "pricing",
-        link: "/how-it-works",
+        link: "/pricing",
         label: "Pricing"
     },
     {
         key: "integration",
-        link: "/how-it-works",
+        link: "/integrations-page",
         label: "Integrations"
     }
 ];
@@ -117,20 +107,10 @@ export const companyConcerns: Array<{
         label: "About Us"
     }, 
     {
-        key: "careers",
-        link: "",
-        label: "Careers"
-    },
-    {
         key: "contact-us",
-        link: "",
+        link: "/contact-us",
         label: "Contact Us"
     },
-    {
-        key: "blog",
-        link: "",
-        label: "Blog"
-    }
 ];
 
 export const legalDocuments: Array<{

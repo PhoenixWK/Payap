@@ -6,7 +6,7 @@ import Enjoy7DaysFreeSection from "../default/enjoy7DaysFree-section/enjoy7DaysF
 export default function ShowFeatures() {
     return (
         <section>
-            <div className="w-full mx-auto px-5 pt-16 pb-4">
+            <div className="w-full mx-auto pt-16 pb-4">
             {/* Feature 1: Instant expense updates */}
                 <section className="mb-16 md:mb-24">
                     <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -34,7 +34,7 @@ export default function ShowFeatures() {
                         </div>
                         <div className="dark:hidden">
                             <Image
-                                src="/features-page-images/receipts.png"
+                                src="/landing_page-images/features-page-images/receipts.png"
                                 alt="Expense tracking dashboard"
                                 loading="lazy"
                                 width={0}
@@ -63,7 +63,7 @@ export default function ShowFeatures() {
                             <div className="order-2 md:order-1">
                                 <div className="dark:hidden">
                                         <Image
-                                            src="/features-page-images/latest-transaction.png"
+                                            src="/landing_page-images/features-page-images/latest-transaction.png"
                                             alt="Expense tracking dashboard"
                                             loading="lazy"
                                             width={0}
@@ -74,7 +74,7 @@ export default function ShowFeatures() {
                                 </div>
                             <div className="hidden dark:block">
                                 <Image
-                                    src="/features-page-images/latestTransaction.png"
+                                    src="/landing_page-images/features-page-images/latestTransaction.png"
                                     alt="Expense tracking dashboard"
                                     loading="lazy"
                                     width={0}
@@ -134,7 +134,7 @@ export default function ShowFeatures() {
                         </div>
                         <div className="dark:hidden">
                             <Image
-                                src="/features-page-images/source.png"
+                                src="/landing_page-images/features-page-images/source.png"
                                 alt="Visual financial insights image"
                                 loading="lazy"
                                 width={0}
@@ -145,7 +145,7 @@ export default function ShowFeatures() {
                         </div>
                         <div className="hidden dark:block">
                             <Image
-                                src="/features-page-images/source(black).png"
+                                src="/landing_page-images/features-page-images/source(black).png"
                                 alt="Visual financial insights image"
                                 loading="lazy"
                                 width={0}
@@ -163,7 +163,7 @@ export default function ShowFeatures() {
                         <div className="order-2 md:order-1">
                             <div className="dark:hidden">
                                 <Image
-                                    src="/features-page-images/cross-platform.png"
+                                    src="/landing_page-images/features-page-images/cross-platform.png"
                                     alt="Cross-platform accessibility image"
                                     loading="lazy"
                                     width={0}
@@ -174,7 +174,7 @@ export default function ShowFeatures() {
                             </div>
                             <div className="hidden dark:block">
                                 <Image
-                                    src="/features-page-images/cross-platform(black).png"
+                                    src="/landing_page-images/features-page-images/cross-platform(black).png"
                                     alt="Cross-platform accessibility image"
                                     loading="lazy"
                                     width={0}

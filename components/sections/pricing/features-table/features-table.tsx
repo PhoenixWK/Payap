@@ -157,7 +157,6 @@ const plans = [
 export default function PricingComparison() {
   return (
         <div className="w-full mx-auto">
-        
             {/* Mobile View - Cards */}
             <div className="grid gap-6 md:hidden">
                 {plans.map((plan) => (
@@ -228,9 +227,9 @@ export default function PricingComparison() {
             <Table>
                 <TableHeader>
                     <TableRow>
-                        <TableHead className="w-[200px] text-xl font-semibold">Features</TableHead>
+                        <TableHead className="w-[200px] text-xl font-semibold hover:bg-none">Features</TableHead>
                             {plans.map((plan) => (
-                                <TableHead key={plan.name} className="text-center">
+                                <TableHead key={plan.name} className="text-center hover:bg-none">
                                     <div className="min-w-[140px] pb-4">
                                         <div className="text-black dark:text-white font-semibold">
                                             {plan.name}
@@ -239,7 +238,7 @@ export default function PricingComparison() {
                                         <div className="text-2xl text-black dark:text-white font-bold">{plan.price}</div>
                                         <div className="text-sm text-muted-foreground">/ month</div>
                                         <Button variant={plan.buttonVariant} className={
-                                            plan.popular === true ? cn("mt-4 w-full py-5 rounded-lg bg-[#9cdd8a] text-black font-semibold") : cn("mt-4 w-full py-5 rounded-lg border-2 border-[#9cdd8a] text-black dark:text-white font-semibold")}>
+                                            plan.popular === true ? cn("mt-4 w-full py-5 rounded-lg bg-[#9cdd8a] hover:bg-white hover:text-[#9cdd8a] text-black font-semibold") : cn("mt-4 w-full py-5 rounded-lg border-2 border-[#9cdd8a] text-black dark:text-white font-semibold hover:bg-[#9cdd8a] hover:text-white")}>
                                         {plan.buttonText}
                                         </Button>
                                     </div>

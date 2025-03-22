@@ -20,7 +20,7 @@ const faqs = [
 
 export default function FAQSection() {
     return (
-        <section className="px-5 lg:px-10 py-5">
+        <section className="px-5 lg:px-10 pt-5 pb-12">
             <h2 className="text-2xl lg:text-3xl font-bold mb-6">Frequently asked questions</h2>
             <div className="space-y-6">
                 {faqs.map((faq, index) => (

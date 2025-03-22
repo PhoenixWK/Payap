@@ -37,7 +37,7 @@ const Footer = () => {
                             />
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <h2 className="text-[16px] text-[#888888] font-bold">Feature</h2>   
                         <ul className="mt-5 flex flex-col gap-4">
                             {featureConcerns.map((featureConcern) => (
@@ -48,7 +48,7 @@ const Footer = () => {
                                 </li>
                             ))}
                         </ul>
-                    </div>
+                    </div> */}
                     <div>
                         <h2 className="text-[16px] text-[#888888] font-bold">Product</h2>   
                         <ul className="mt-5 flex flex-col gap-4">
@@ -61,10 +61,10 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    <div className="hidden md:flex w-full h-full">
+                    {/* <div className="hidden md:flex w-full h-full">
 
-                    </div>
-                    <div>
+                    </div> */}
+                    {/* <div>
                         <h2 className="text-[16px] text-[#888888] font-bold">Resources</h2>   
                         <ul className="mt-5 flex flex-col gap-4">
                             {resourcesConcerns.map((resourcesConcern) => (
@@ -75,7 +75,7 @@ const Footer = () => {
                                 </li>
                             ))}
                         </ul>
-                    </div>
+                    </div> */}
                     <div>
                         <h2 className="text-[16px] text-[#888888] font-bold">Company</h2>   
                         <ul className="mt-5 flex flex-col gap-4">
@@ -93,7 +93,7 @@ const Footer = () => {
                 <div className="mt-10">
                     <ul className="mt-5 flex justify-between sm:items-start sm:justify-start sm:gap-5">
                         {legalDocuments.map((legalDocument) => (
-                            <li key={legalDocument.key}>
+                            <li className="hover:underline" key={legalDocument.key}>
                                 <Link href={legalDocument.link} className="text-[16px] text-black dark:text-white font-normal">
                                     {legalDocument.label}
                                 </Link>

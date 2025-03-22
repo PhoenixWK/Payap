@@ -8,9 +8,9 @@ import ShowFeatures from "@/components/sections/features/ShowFeatures";
 export default function FeaturesPage() {
     return (
         <LandingPageLayout>
-            <div className="bg-white dark:bg-black w-full pt-[120px]">
-                <div className="pl-5 grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div className="px-6">
+            <div className="bg-white dark:bg-black w-full px-5 pt-[100px]">
+                <div className="lg:pl-5 grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <div className="">
                         <h1 className="text-3xl md:text-4xl text-black dark:text-white font-bold text-left tracking-wider">
                             Effortless real-time expense tracking for<br></br><span className="text-[#3FA477]">smarter financial</span> control
                         </h1>

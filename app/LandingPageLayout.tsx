@@ -1,6 +1,6 @@
-import Header from "@/components/navbar/Header";
+import Header from "@/components/navbar/landing_page-navbar/Header";
 import Providers from "./providers";
-import Footer from "@/components/navbar/Footer";
+import Footer from "@/components/navbar/landing_page-navbar/Footer";
 
 export default function LandingPageLayout({
     children,
