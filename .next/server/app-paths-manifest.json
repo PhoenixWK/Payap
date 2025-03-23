@@ -1,7 +1,6 @@
 {
-  "/(payap-dashboard)/dashboard/page": "app/(payap-dashboard)/dashboard/page.js",
-  "/(landing_page)/features/page": "app/(landing_page)/features/page.js",
-  "/(landing_page)/case-study/page": "app/(landing_page)/case-study/page.js",
-  "/(landing_page)/integrations-page/page": "app/(landing_page)/integrations-page/page.js",
-  "/(landing_page)/pricing/page": "app/(landing_page)/pricing/page.js"
+  "/page": "app/page.js",
+  "/(landing_page)/privacy-policy/page": "app/(landing_page)/privacy-policy/page.js",
+  "/(landing_page)/terms-of-service/page": "app/(landing_page)/terms-of-service/page.js",
+  "/(landing_page)/security-policy/page": "app/(landing_page)/security-policy/page.js"
 }

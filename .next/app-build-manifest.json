@@ -11,40 +11,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/(landing_page)/features/page": [
+    "/(landing_page)/privacy-policy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/features/page.js"
+      "static/chunks/app/(landing_page)/privacy-policy/page.js"
     ],
-    "/(landing_page)/integrations-page/page": [
+    "/(landing_page)/terms-of-service/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/integrations-page/page.js"
+      "static/chunks/app/(landing_page)/terms-of-service/page.js"
     ],
-    "/(landing_page)/case-study/page": [
+    "/(landing_page)/security-policy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/case-study/page.js"
-    ],
-    "/(landing_page)/pricing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/pricing/page.js"
-    ],
-    "/(landing_page)/about-us/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/about-us/page.js"
-    ],
-    "/(landing_page)/contact-us/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/contact-us/page.js"
-    ],
-    "/(payap-dashboard)/dashboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(payap-dashboard)/dashboard/page.js"
+      "static/chunks/app/(landing_page)/security-policy/page.js"
     ]
   }
 }
