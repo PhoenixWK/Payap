@@ -25,37 +25,6 @@ export const headerLinks: Array<{
     }
 ];
 
-export const featureConcerns: Array<{
-    key: string,
-    link: string,
-    label: string
-}> = [
-    {
-        key: "real-time-tracking",
-        link: "/features",
-        label: "Real-time tracking"
-    },
-    {
-        key: "budget-alert",
-        link: "/features",
-        label: "Budget alerts"
-    },
-    {
-        key: "bill-reminder",
-        link: "/features",
-        label: "Bill reminders"
-    },
-    {
-        key: "account-integration",
-        link: "/features",
-        label: "Account integration"
-    },
-    {
-        key: "data-security",
-        link: "/features",
-        label: "Data security"
-    }
-];
 
 export const productConcerns: Array<{
     key: string,
@@ -71,28 +40,6 @@ export const productConcerns: Array<{
         key: "integration",
         link: "/integrations-page",
         label: "Integrations"
-    }
-];
-
-export const resourcesConcerns: Array<{
-    key: string,
-    link: string,
-    label: string
-}> = [
-    {
-        key: "faqs",
-        link: "",
-        label: "FAQS"
-    },
-    {
-        key: "careers",
-        link: "",
-        label: "Careers"
-    },
-    {
-        key: "case-studies",
-        link: "",
-        label: "Case Studies"
     }
 ];
 
@@ -120,17 +67,17 @@ export const legalDocuments: Array<{
 }> = [
     {
         key: "privacy-policy",
-        link: "",
+        link: "/privacy-policy",
         label: "Privacy Policy"
     },
     {
         key: "terms-of-service",
-        link: "",
+        link: "/terms-of-service",
         label: "Terms of Service"
     },
     {
         key: "security-policy",
-        link: "",
+        link: "/security-policy",
         label: "Security Policy"
     }
 ];

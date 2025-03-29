@@ -6,7 +6,7 @@ export default function DashboardPageLayout({ children }: { children: React.Reac
     return (
         <Providers>
             <div className="flex"> 
-                <div className="hidden lg:block">
+                <div className="hidden lg:flex">
                     <SidebarNav />       
                 </div>          
                 <div className="flex-1">

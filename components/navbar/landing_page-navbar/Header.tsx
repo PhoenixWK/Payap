@@ -16,14 +16,16 @@ const Header = () => {
                 <header className="w-full h-full flex items-center justify-between">
                     <div className="flex gap-6 w-fit">
                         <div className="flex gap-2">
-                            <Image 
-                                src="/payap(noname).svg"
-                                alt="Web logo"
-                                width={40}
-                                height={40}
-                                priority={true}
-                            />
-                            <p className="text-[26px] hidden md:block text-black dark:text-white font-monsterat font-bold">Payap</p>
+                            <Link href="/" className="inline-flex items-center gap-2">
+                                <Image 
+                                    src="/payap(noname).svg"
+                                    alt="Web logo"
+                                    width={40}
+                                    height={40}
+                                    priority={true}
+                                />
+                                <p className="text-[26px] hidden md:block text-black dark:text-white font-monsterat font-bold">Payap</p>
+                            </Link>
                         </div>
                         <ul className="hidden xl:flex items-center justify-center gap-8">
                             {headerLinks.map((headerLink) => (
@@ -47,17 +49,11 @@ const Header = () => {
                                 size={24}
                             />
                         </button>
-                        <Button
-                            variant="secondary" 
-                            className="hidden xl:flex text-[14px] text-black dark:hover:text-white font-bold bg-[#EEEEEE] border-2 border-[#EEEEEE]"
-                        >
-                            Login
-                        </Button>
                         <Button 
                             variant="secondary" 
                             className="hidden xl:flex text-[14px] text-black dark:hover:text-white font-bold bg-[#9CDD8A] border-2 border-[#EEEEEE]"
                         >
-                            Get started
+                            <Link href={"/sign-in"}>Login</Link>
                         </Button>
                     </div>
                 </header>

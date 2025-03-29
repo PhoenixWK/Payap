@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutubeSquare } from "react-icons/fa";
-import { companyConcerns, featureConcerns, legalDocuments, productConcerns, resourcesConcerns } from "@/utils/links";
+import { companyConcerns, legalDocuments, productConcerns} from "@/utils/links";
 import Link from "next/link";
 
 const Footer = () => {
@@ -37,18 +37,6 @@ const Footer = () => {
                             />
                         </div>
                     </div>
-                    {/* <div>
-                        <h2 className="text-[16px] text-[#888888] font-bold">Feature</h2>   
-                        <ul className="mt-5 flex flex-col gap-4">
-                            {featureConcerns.map((featureConcern) => (
-                                <li key={featureConcern.key}>
-                                    <Link href={featureConcern.link} className="text-[16px] text-black dark:text-white font-bold hover:underline">
-                                        {featureConcern.label}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </div> */}
                     <div>
                         <h2 className="text-[16px] text-[#888888] font-bold">Product</h2>   
                         <ul className="mt-5 flex flex-col gap-4">
@@ -61,21 +49,6 @@ const Footer = () => {
                             ))}
                         </ul>
                     </div>
-                    {/* <div className="hidden md:flex w-full h-full">
-
-                    </div> */}
-                    {/* <div>
-                        <h2 className="text-[16px] text-[#888888] font-bold">Resources</h2>   
-                        <ul className="mt-5 flex flex-col gap-4">
-                            {resourcesConcerns.map((resourcesConcern) => (
-                                <li key={resourcesConcern.key}>
-                                    <Link href={resourcesConcern.link} className="text-[16px] text-black dark:text-white font-bold hover:underline">
-                                        {resourcesConcern.label}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </div> */}
                     <div>
                         <h2 className="text-[16px] text-[#888888] font-bold">Company</h2>   
                         <ul className="mt-5 flex flex-col gap-4">
