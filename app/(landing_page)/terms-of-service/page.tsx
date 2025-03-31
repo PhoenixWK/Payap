@@ -6,7 +6,7 @@ export default function TermsOfService() {
             <div className="w-full mx-auto px-5 lg:px-10 pt-[90px] pb-12">
                 <h1 className="text-4xl font-bold mb-8">Terms of Service</h1>
                 <p className="text-sm lg:text-lg text-black dark:text-white mb-8">
-                    Welcome to Payap! These Terms of Service (&quot;Terms&quot;) govern your access and use of the Payap financial management system and any related services (&quot;Service&quot;). By using Payap, you agree to comply with and be bound by these Terms.
+                    Welcome to Payap! These Terms of Service &quot;Terms&quot; govern your access and use of the Payap financial management system and any related services (&quot;Service&quot;). By using Payap, you agree to comply with and be bound by these Terms.
                 </p>
                 <div className="space-y-8">
                     <section>
