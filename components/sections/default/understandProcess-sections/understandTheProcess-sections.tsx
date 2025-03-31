@@ -30,11 +30,10 @@ export default function UnderstandTheProcessSection() {
                         <p className="text-[#3FA477] font-semibold">How it works</p>
                         <h2 className="text-3xl md:text-4xl font-bold">Understand the Process</h2>
                         <p className="text-[#888888] font-semibold">
-                        We're here to help! Whether you have a question, need support, or just want to learn more about Payap, feel
+                        We&apos;re here to help! Whether you have a question, need support, or just want to learn more about Payap, feel
                         free to reach out to us.
                         </p>
                     </div>
-
                     <div className="grid gap-8 md:gap-12">
                         <div className="flex gap-4 items-start">
                             <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">

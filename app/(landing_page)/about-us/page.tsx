@@ -1,11 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import LandingPageLayout from "@/app/LandingPageLayout";
 import { BsTransparency } from "react-icons/bs";
 import { RiFundsBoxLine } from "react-icons/ri";
 import { FaRegUserCircle } from "react-icons/fa";
 import { MdOutlineSecurity } from "react-icons/md";
-import Enjoy7DaysFreeSection from "@/components/sections/default/enjoy7DaysFree-section/enjoy7DaysFree-section";
 import { Button } from "@/components/ui/button";
 
 const teamMembers = [

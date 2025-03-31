@@ -221,7 +221,6 @@ export default function PricingComparison() {
                     </div>
                 ))}
         </div>
-
         {/* Desktop View - Table */}
         <div className="hidden md:block overflow-auto">
             <Table>
@@ -247,7 +246,7 @@ export default function PricingComparison() {
                     </TableRow>
                 </TableHeader>
                 <TableBody>
-                    {features.map((feature, i) => (
+                    {features.map((feature) => (
                         <TableRow key={feature.name}>
                             <TableCell className="font-sans font-medium">{feature.name}</TableCell>
                             {plans.map((plan) => (

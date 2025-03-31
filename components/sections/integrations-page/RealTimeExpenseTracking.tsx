@@ -33,8 +33,8 @@ export default function RealTimeExpenseTracking() {
             <article>
                 <h2 className="text-2xl font-bold lg:text-3xl mb-4 text-black dark:text-white">Why real-time expense tracking matters</h2>
                 <p className="text-black dark:text-white mb-8">
-                Managing expenses effectively is key to maintaining financial health, whether you're running a small business
-                or handling personal finances. Here's how Real-Time Expense Tracking helps you:
+                Managing expenses effectively is key to maintaining financial health, whether you&apos;re running a small business
+                or handling personal finances. Here&apos;s how Real-Time Expense Tracking helps you:
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 col-auto gap-2">

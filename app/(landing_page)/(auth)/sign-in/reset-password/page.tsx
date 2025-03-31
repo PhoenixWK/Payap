@@ -21,7 +21,7 @@ export default function ResetPassword() {
                             <span>Payap</span>
                         </Link>
                     </div> 
-                    <p className="text-gray-600 text-lg dark:text-[#6d6d6d]">Don't have an account? <Link href="/sign-up" className="text-[#3fa477] font-semibold hover:underline hover:text-emerald-600">Sign up</Link></p>
+                    <p className="text-gray-600 text-lg dark:text-[#6d6d6d]">Don&apos;t have an account? <Link href="/sign-up" className="text-[#3fa477] font-semibold hover:underline hover:text-emerald-600">Sign up</Link></p>
                 </div>
                 <div className="w-full flex flex-col items-start md:items-center space-y-6">
                     <div>

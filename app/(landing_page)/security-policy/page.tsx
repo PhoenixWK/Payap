@@ -110,7 +110,7 @@ export default function SecurityPolicy() {
                     <section>
                         <h2 className="text-xl lg:text-2xl font-semibold mb-4">10. Updates to this policy</h2>
                         <p className="text-gray-700 text-sm lg:text-lg dark:text-white leading-relaxed">
-                            We may update this Security Policy from time to time to reflect new security practices, threats, or regulatory requirements. Any changes will be posted on this page with the "Effective Date" updated accordingly.
+                            We may update this Security Policy from time to time to reflect new security practices, threats, or regulatory requirements. Any changes will be posted on this page with the &quot;Effective Date&quot; updated accordingly.
                         </p>
                     </section>
                 </div>

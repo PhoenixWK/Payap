@@ -3,7 +3,7 @@ import SignInForm from "@/components/auth-form/signin-form/signin-form";
 import Link from "next/link";
 
 
-export default function SignIn() {
+export default function SignInPage() {
     return (
         <main className="w-sreen h-screen px-5 py-5 flex justify-between overflow-hidden">
             <div className="w-full xl:mr-4 flex flex-col items-center justify-between">
@@ -21,7 +21,7 @@ export default function SignIn() {
                             <span>Payap</span>
                         </Link>
                     </div> 
-                    <p className="text-gray-600 text-lg dark:text-[#6d6d6d]">Don't have an account? <Link href="/sign-up" className="text-[#3fa477] font-semibold hover:underline hover:text-emerald-600">Sign up</Link></p>
+                    <p className="text-gray-600 text-lg dark:text-[#6d6d6d]">Don&apos;t have an account? <Link href="/sign-up" className="text-[#3fa477] font-semibold hover:underline hover:text-emerald-600">Sign up</Link></p>
                 </div>
                 <SignInForm />
                 <div className="mt-8 flex items-center justify-center w-full  text-gray-500 dark:text-[#6d6d6d]">

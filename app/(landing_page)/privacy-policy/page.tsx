@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
                 <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
                 <p className="text-sm lg:text-lg text-[#888] dark:text-white mb-8 font-semibold">Last updated: May 23rd 2024</p>
                 <p className="text-sm lg:text-lg text-black dark:text-white mb-8">
-                This Privacy Policy outlines how Payap ("we", "our", "us") collects, uses, and protects your personal information when you use our financial management system. By using Payap, you agree to the practices described in this policy.
+                This Privacy Policy outlines how Payap (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) collects, uses, and protects your personal information when you use our financial management system. By using Payap, you agree to the practices described in this policy.
                 </p>
                 <div className="space-y-8">
                     <section>
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
                     <section>
                         <h2 className="text-xl lg:text-2xl font-semibold mb-3">7. Changes to this privacy policy</h2>
                         <p className="text-gray-700 text-sm lg:text-lg dark:text-white">
-                            We may update this Privacy Policy from time to time to reflect changes in our practices. Any changes will be posted on this page with the "Effective Date" updated accordingly.
+                            We may update this Privacy Policy from time to time to reflect changes in our practices. Any changes will be posted on this page with the &quot;Effective Date&quot; updated accordingly.
                         </p>
                     </section>
                     <section>

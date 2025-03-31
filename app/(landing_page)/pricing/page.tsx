@@ -2,7 +2,6 @@
 import Image from "next/image";
 import PricingPlans from "@/components/sections/pricing/pricingPlans/pricing-plans";
 import FeatureTable from "@/components/sections/pricing/features-table/features-table";
-import { pricingFeatures } from "@/utils/content";
 import FAQSection from "@/components/sections/pricing/faq-section/faq-section";
 import LandingPageLayout from "@/app/LandingPageLayout";
 
@@ -27,14 +26,14 @@ export default function PricingPage() {
                                 Pricing
                             </h1>
                             <p className="mt-2 text-[16px] xl:text-[24px] text-[#888888] font-sans font-semibold">
-                                We're here to help! Whether you have a question, need support, or just want to learn more about Payap, feel free to reach out to us.
+                                We&apos;re here to help! Whether you have a question, need support, or just want to learn more about Payap, feel free to reach out to us.
                             </p>
                     </div>
                 </div>
                 <PricingPlans />
                 <div className="p-5 space-y-4 bg-[#EEEEEE] dark:bg-[#161616] font-bold font-monsterat text-center">
                     <h2 className="text-xl dark:text-white">
-                        Trusted by 7,000+ apps and the world's largest app publishers
+                        Trusted by 7,000+ apps and the world&apos;s largest app publishers
                     </h2>
                     <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 place-items-center">
                         {apps.map((app) => (

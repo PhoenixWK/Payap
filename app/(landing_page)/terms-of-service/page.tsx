@@ -6,7 +6,7 @@ export default function TermsOfService() {
             <div className="w-full mx-auto px-5 lg:px-10 pt-[90px] pb-12">
                 <h1 className="text-4xl font-bold mb-8">Terms of Service</h1>
                 <p className="text-sm lg:text-lg text-black dark:text-white mb-8">
-                    Welcome to Payap! These Terms of Service ("Terms") govern your access and use of the Payap financial management system and any related services ("Service"). By using Payap, you agree to comply with and be bound by these Terms.
+                    Welcome to Payap! These Terms of Service (&quot;Terms&quot;) govern your access and use of the Payap financial management system and any related services (&quot;Service&quot;). By using Payap, you agree to comply with and be bound by these Terms.
                 </p>
                 <div className="space-y-8">
                     <section>
@@ -68,7 +68,7 @@ export default function TermsOfService() {
                     <section>
                         <h2 className="text-xl lg:text-2xl font-semibold mb-4">7. Termination and suspension</h2>
                         <p className="text-black dark:text-white text-sm lg:text-lg">
-                            We may update this Privacy Policy from time to time to reflect changes in our practices. Any changes will be posted on this page with the "Effective Date" updated accordingly.
+                            We may update this Privacy Policy from time to time to reflect changes in our practices. Any changes will be posted on this page with the &quot;Effective Date&quot; updated accordingly.
                         </p>
                     </section>
                     <section>
@@ -80,13 +80,13 @@ export default function TermsOfService() {
                     <section>
                         <h2 className="text-xl lg:text-2xl font-semibold mb-4">7. Termination and suspension</h2>
                         <p className="text-black dark:text-white text-sm lg:text-lg">
-                            We may update this Privacy Policy from time to time to reflect changes in our practices. Any changes will be posted on this page with the "Effective Date" updated accordingly.
+                            We may update this Privacy Policy from time to time to reflect changes in our practices. Any changes will be posted on this page with the &quot;Effective Date&quot; updated accordingly.
                         </p>
                     </section>
                     <section>
                         <h2 className="text-xl lg:text-2xl font-semibold mb-4">9. Disclaimers</h2>
                         <p className="text-black dark:text-white text-sm lg:text-lg">
-                            Payap is provided on an "as is" and "as available" basis without any warranties of any kind, either express or implied. We do not guarantee that the Service will be uninterrupted, error-free, or free from viruses or other harmful components.
+                            Payap is provided on an &quot;as is&quot; and &quot;as available&quot; basis without any warranties of any kind, either express or implied. We do not guarantee that the Service will be uninterrupted, error-free, or free from viruses or other harmful components.
                         </p>
                     </section>
                     <section>

@@ -15,7 +15,7 @@ export default function FeaturesPage() {
                             Effortless real-time expense tracking for<br></br><span className="text-[#3FA477]">smarter financial</span> control
                         </h1>
                         <p className="mt-4 text-[14px] xl:text-[16px] text-[#888888] text-left font-sans font-semibold">
-                            With Payap's seamless tracking, you can monitor your expenses instantly, uncover spending patterns, and optimize your budget—all within an intuitive, user-friendly platform designed to help you stay in control.
+                            With Payap&apos;s seamless tracking, you can monitor your expenses instantly, uncover spending patterns, and optimize your budget—all within an intuitive, user-friendly platform designed to help you stay in control.
                         </p>
                         <div className="mt-6">
                             <Button
