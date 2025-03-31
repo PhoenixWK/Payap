@@ -24,7 +24,7 @@ const Header = () => {
                                     height={40}
                                     priority={true}
                                 />
-                                <p className="text-[26px] hidden md:block text-black dark:text-white font-monsterat font-bold">DEO CO TEN</p>
+                                <p className="text-[26px] hidden md:block text-black dark:text-white font-monsterat font-bold">Payap</p>
                             </Link>
                         </div>
                         <ul className="hidden xl:flex items-center justify-center gap-8">
