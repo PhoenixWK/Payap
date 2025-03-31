@@ -17,7 +17,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         script: |
-          cd /home/next-deploy-vps
+          cd /home/Payap
           git fetch origin
           git checkout production
           git pull
