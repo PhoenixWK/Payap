@@ -1,1 +1,7 @@
-{}
+{
+  "/page": "app/page.js",
+  "/(landing_page)/(auth)/sign-in/page": "app/(landing_page)/(auth)/sign-in/page.js",
+  "/(landing_page)/features/page": "app/(landing_page)/features/page.js",
+  "/(landing_page)/integrations-page/page": "app/(landing_page)/integrations-page/page.js",
+  "/(landing_page)/(auth)/sign-up/page": "app/(landing_page)/(auth)/sign-up/page.js"
+}

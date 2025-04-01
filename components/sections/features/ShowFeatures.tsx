@@ -44,7 +44,7 @@ export default function ShowFeatures() {
                         </div>
                         <div className="hidden dark:block">
                             <Image
-                                src="/features-page-images/receipts(black).png"
+                                src="/landing_page-images/features-page-images/receipts(black).png"
                                 alt="Expense tracking dashboard"
                                 loading="lazy"
                                 width={0}
