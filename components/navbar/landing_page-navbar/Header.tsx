@@ -41,6 +41,12 @@ const Header = () => {
                         <div>
                             <DarkModeBtn />
                         </div>
+                        <Button 
+                            variant="secondary" 
+                            className="text-[14px] text-black dark:hover:text-white font-bold bg-[#9CDD8A] border-2 border-[#EEEEEE]"
+                        >
+                            <Link href={"/sign-in"}>Login</Link>
+                        </Button>
                         <button
                             className="bg-transparent xl:hidden"
                             onClick={() => setMenuVisible((isMenuVisible) => !isMenuVisible)}
@@ -48,13 +54,7 @@ const Header = () => {
                             <IoMenu
                                 size={24}
                             />
-                        </button>
-                        <Button 
-                            variant="secondary" 
-                            className="hidden xl:flex text-[14px] text-black dark:hover:text-white font-bold bg-[#9CDD8A] border-2 border-[#EEEEEE]"
-                        >
-                            <Link href={"/sign-in"}>Login</Link>
-                        </Button>
+                        </button>                     
                     </div>
                 </header>
             </nav>

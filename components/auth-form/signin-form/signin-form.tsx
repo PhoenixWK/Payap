@@ -33,18 +33,12 @@ export default function SignInForm() {
                             Password<span className="text-red-500">*</span>
                         </label>
                         <div className="relative">
-                        <input
-                            type="password"
-                            id="password"
-                            placeholder="Enter your password"
-                            className={cn("w-full p-3 rounded-lg border-2 focus:outline-none focus:border-[#9cdd8a]")}
-                        />
-                        <button 
-                            type="button"
-                            className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"
-                        >
-                            👁️
-                        </button>
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Enter your password"
+                                className={cn("w-full p-3 rounded-lg border-2 focus:outline-none focus:border-[#9cdd8a]")}
+                            />   
                         </div>
                     </div>
                     <div className="flex items-center justify-start gap-2">
@@ -53,7 +47,6 @@ export default function SignInForm() {
                             Reset password
                         </Link>
                     </div>
-
                     <button
                         type="submit"
                         className="w-full bg-[#9cdd8a] text-black font-semibold rounded-lg p-3 hover:bg-[#9cdd8a]/80 transition-colors"

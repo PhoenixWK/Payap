@@ -31,10 +31,10 @@ const IntroduceSection = () => {
                     <Image 
                         src="/IntroduceBackground.svg"
                         alt="background"
-                        className="md:w-[696px] md:h-[322px] lg:w-[1296px] lg:h-[579px]"
-                        width={342}
-                        height={172}
-                        quality={100}
+                        className="w-auto h-auto"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
                         priority={true}
                     />
                 </div>
@@ -42,10 +42,11 @@ const IntroduceSection = () => {
                     <Image 
                         src="/IntroduceBackground(dark).svg"
                         alt="background"
-                        className="md:w-[696px] md:h-[322px] lg:w-[1296px] lg:h-[579px]"
-                        width={342}
-                        height={172}
-                        quality={100}
+                        className="w-auto h-auto"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        priority={true}
                     />
                 </div>
                 <div className="my-10 flex justify-center items-center gap-4 md:gap-8 lg:gap-12 ">
