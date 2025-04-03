@@ -1,14 +1,13 @@
-
 import Link from "next/link";
 import Image from "next/image";
-import ResetPasswordForm from "@/components/auth-form/signin-form/reset-password/reset-password-form";
+import VerifyEmailForm from "@/components/auth-form/signup-form/verify-email-form/verify-email-form";
 import Providers from "@/app/providers";
 
-export default function ResetPassword() {
+export default function VerifyEmailPage() {
     return (
         <Providers>
             <main className="w-sreen h-screen px-5 py-5 flex justify-between overflow-hidden">
-                <div className="w-full lg:mr-4 flex flex-col items-center justify-between">
+                <div className="w-full xl:mr-4 flex flex-col items-center justify-between">
                     <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between gap-2 md:gap-0">
                         <div className="inline-block text-2xl font-bold">
                             <Link href="/" className="inline-flex items-center gap-2">
@@ -23,16 +22,13 @@ export default function ResetPassword() {
                                 <span>Payap</span>
                             </Link>
                         </div> 
-                        <p className="text-gray-600 text-lg dark:text-[#6d6d6d]">Don&apos;t have an account? <Link href="/sign-up" className="text-[#3fa477] font-semibold hover:underline hover:text-emerald-600">Sign up</Link></p>
+                        <p className="text-gray-600 text-lg dark:text-[#6d6d6d]">Already have an account? <Link href="/sign-in" className="text-[#3fa477] font-semibold hover:underline hover:text-emerald-600">Sign in</Link></p>
                     </div>
-                    <div className="w-full flex flex-col items-start md:items-center space-y-6">
-                        <div>
-                            <h1 className="text-4xl inline-block text-left font-bold mb-2">Reset your password</h1>
-                            <p className="text-lg text-[#888] dark:text-[#6d6d6d]">Please enter your registered email to receive a reset link.</p>
-                        </div>
-                        <ResetPasswordForm />
+                    <div className="w-full md:max-w-md flex flex-col items-start">
+                        <h1 className="text-4xl inline-block text-left font-bold mb-2">Welcome to Payap</h1>
+                        <p className="text-lg text-[#888] dark:text-[#6d6d6d] mb-4">Enter your details to begin your journey</p>
+                        <VerifyEmailForm />
                     </div>
-                    
                     <div className="mt-8 flex items-center justify-center w-full  text-gray-500 dark:text-[#6d6d6d]">
                         <div className="space-x-4">
                             <Link href="/terms-of-service" className="hover:text-black">Terms of service</Link>

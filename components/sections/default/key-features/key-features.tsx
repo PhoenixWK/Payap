@@ -6,7 +6,7 @@ import { Button } from "../../../ui/button";
 const KeyFeaturesSection = () => {
     return (
         <section className="py-10 w-full bg-white dark:bg-black">
-            <div className="px-5">
+            <div className="px-5 lg:px-10">
                 <p className="text-[16px] text-[#3fa477] font-semibold">
                     Real-time Tracking
                 </p>

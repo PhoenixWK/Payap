@@ -29,24 +29,24 @@ const IntroduceSection = () => {
                 </div>
                 <div className="dark:hidden mt-10 flex items-center justify-center">
                     <Image 
-                        src="/IntroduceBackground.svg"
+                        src="/landing_page-images/home-images/img-home-hero.png"
                         alt="background"
                         className="w-auto h-auto"
                         width={0}
                         height={0}
                         sizes="100vw"
-                        priority={true}
+                        loading="lazy"
                     />
                 </div>
                 <div className="hidden mt-10 dark:flex items-center justify-center">
                     <Image 
-                        src="/IntroduceBackground(dark).svg"
+                        src="/landing_page-images/home-images/img-home-hero(dark).png"
                         alt="background"
                         className="w-auto h-auto"
                         width={0}
                         height={0}
                         sizes="100vw"
-                        priority={true}
+                        loading="lazy"
                     />
                 </div>
                 <div className="my-10 flex justify-center items-center gap-4 md:gap-8 lg:gap-12 ">

@@ -16,11 +16,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(landing_page)/case-study/page.js"
     ],
-    "/(landing_page)/(auth)/sign-in/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/(auth)/sign-in/page.js"
-    ],
     "/(landing_page)/features/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -31,25 +26,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(landing_page)/integrations-page/page.js"
     ],
-    "/(landing_page)/(auth)/sign-in/reset-password/page": [
+    "/(landing_page)/(auth)/sign-in/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/(auth)/sign-in/reset-password/page.js"
+      "static/chunks/app/(landing_page)/(auth)/sign-in/page.js"
     ],
     "/(landing_page)/(auth)/sign-up/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(landing_page)/(auth)/sign-up/page.js"
     ],
-    "/(landing_page)/terms-of-service/page": [
+    "/(landing_page)/(auth)/sign-up/verify-email/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/terms-of-service/page.js"
+      "static/chunks/app/(landing_page)/(auth)/sign-up/verify-email/page.js"
     ],
-    "/(landing_page)/privacy-policy/page": [
+    "/(landing_page)/(auth)/sign-in/reset-password/send-link/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(landing_page)/privacy-policy/page.js"
+      "static/chunks/app/(landing_page)/(auth)/sign-in/reset-password/send-link/page.js"
     ]
   }
 }
