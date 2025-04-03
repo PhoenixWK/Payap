@@ -27,12 +27,12 @@ export default function SignUpPage() {
                     <p className="text-lg text-[#888] dark:text-[#6d6d6d] mb-4">Enter your details to begin your journey</p>
                     <SignUpForm />
                 </div>
-                {/* <div className="mt-8 flex items-center justify-center w-full  text-gray-500 dark:text-[#6d6d6d]">
+                <div className="mt-8 flex items-center justify-center w-full  text-gray-500 dark:text-[#6d6d6d]">
                     <div className="space-x-4">
                         <Link href="/terms-of-service" className="hover:text-black">Terms of service</Link>
                         <Link href="/privacy-policy" className="hover:text-black">Privacy policy</Link>
                     </div>
-                </div> */}
+                </div>
             </div>
             <div className="hidden xl:block w-full h-full">
                 <Image 

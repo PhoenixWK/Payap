@@ -36,10 +36,10 @@ const providers: Array<{
 
 export default function Providers() {
   return (
-    <div className="space-y-6 lg:grid grid-cols-3 gap-5 lg:space-y-0">
+    <div className="h-full space-y-6 lg:grid grid-cols-3 gap-5 lg:space-y-0">
       {providers.map((provider) => (
-        <div key={provider.title} className="shadow-lg rounded-lg">
-          <div className={`px-6 py-4 ${provider.color} dark:bg-black rounded-t-lg`}>
+        <div key={provider.title} className="bg-white dark:bg-black shadow-lg rounded-lg">
+          <div className={`px-6 py-4 ${provider.color} rounded-t-lg`}>
             <Image
               src={provider.linkImg}
               alt="Provider logo"
@@ -48,9 +48,9 @@ export default function Providers() {
               className="w-auto h-auto"
             />
           </div>
-          <div className="px-4 py-4 space-y-4 bg-white dark:bg-black rounded-b-lg">
-            <p className="text-lg text-black dark:text-white font-sans font-semibold">{provider.title}</p>
-            <p className="text-sm text-[#888] font-sans">{provider.description}</p>
+          <div className="lg:min-h-52 px-4 py-4 flex flex-col justify-between rounded-b-lg">
+            <p className="text-xl text-black dark:text-white font-sans font-semibold">{provider.title}</p>
+            <p className="text-sm font-semibold text-[#888] font-sans">{provider.description}</p>
             <p className="w-fit px-4 py-2 bg-[#f0f0f0] rounded-lg text-sm text-[#888] text-center font-medium">
               {provider.type}
             </p>
