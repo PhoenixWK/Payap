@@ -20,7 +20,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="w-full h-20 p-4 flex items-center justify-between bg-white dark:bg-black border-b-2 border-gray-200">
+            <div className="w-full h-20 p-4 flex items-center justify-between bg-white dark:bg-black border-b-2 border-[#d2d2d2] dark:border-[#393939]">
                 <div className="flex items-center gap-2">
                     <div className="lg:hidden">
                         <Sheet>
