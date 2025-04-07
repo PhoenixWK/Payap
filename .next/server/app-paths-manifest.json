@@ -1,9 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/(landing_page)/(auth)/sign-up/page": "app/(landing_page)/(auth)/sign-up/page.js",
-  "/(landing_page)/(auth)/sign-in/page": "app/(landing_page)/(auth)/sign-in/page.js",
-  "/(payap-dashboard)/dashboard/page": "app/(payap-dashboard)/dashboard/page.js",
-  "/(payap-dashboard)/receipts/page": "app/(payap-dashboard)/receipts/page.js",
-  "/(payap-dashboard)/transactions/page": "app/(payap-dashboard)/transactions/page.js",
-  "/(payap-dashboard)/bank-accounts/page": "app/(payap-dashboard)/bank-accounts/page.js"
-}
