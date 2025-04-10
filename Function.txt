@@ -1,0 +1,26 @@
+Essential Reporting Functions for Students & Working Professionals:
+
+	- Income and expense report:
+		+ Provides a clear overview of income and expenses over a specific period (e.g., monthly, 				     quarterly, annually).
+		+ Key metric: Total Income, Total Expenses, 
+		+ Visualization: 
+			1) Line chart showing income and expense trends over time, 
+			2) Actionable Insights: Identifies whether the user is spending more than they earn.
+			3) Highlights potential areas for savings
+
+	- Expense Breakdown Report:
+		+ Shows how expenses are distributed across different categories
+		+ Key metric: Total Expenses per Category (e.g., Food, Rent, Transportation, Entertainment) * Percentage of 			      Total Expenses per Category 
+		+ Visualization:
+			1) Pie chart showing the percentage breakdown of expenses.
+			2) Bar chart comparing expenses across different categories.
+			3) Actionable Insights: Identifies the categories where the user is spending the most money, 
+						Highlights areas where the user can potentially cut back on spending
+	- Budget vs Actual Report:
+		+ Compares actual spending to the budgeted amounts for each category
+		+ Key metric: Budgeted Amount per Category * Actual Spending per Category * Variance (Budgeted - Actual)
+		+ Visualization: 
+			1) Bar chart comparing budgeted and actual spending
+			2) Line chart showing budget progress over time
+			3) Actionable Insights: Identifies categories where the user is over or under budget
+						
